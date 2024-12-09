@@ -114,6 +114,13 @@ body {
     margin-bottom: 20px;
 }
 
+lado{
+    display: none;
+    width: 50%;
+    max-width: 90px;
+    
+}
+
 @media (max-width: 768px) {
     .hero h2 {
         font-size: 1.5rem;
