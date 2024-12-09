@@ -84,9 +84,3 @@
         // Exibe o QR Code
         qrContainer.style.display = 'block';
     });
-
-/**Menu */
-    document.getElementById('menu').addEventListener('click', function() {
-        var menuNav = document.getElementById('menu-nav');
-        menuNav.classList.toggle('open');
-    });
