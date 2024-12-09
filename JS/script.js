@@ -84,18 +84,3 @@
         // Exibe o QR Code
         qrContainer.style.display = 'block';
     });
-
-/** Menu */
-    const menu = document.querySelector("#menu")
-    let mostra = false
-
-    menu.addEventListener('click', () =>{
-        if (mostra){
-            lado.style.display = "none";
-            mostra = false;
-        }
-        else{
-            lado.style.display = "flex";
-            mostra = true;
-        }
-    });
