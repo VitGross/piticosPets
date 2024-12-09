@@ -83,19 +83,7 @@ body {
 }
 
 /* Responsividade Barra de Navegação */
-@media (max-width: 768px) { 
-    .menu-nav li {
-        display: inline-block;
-    }
-    
-    .menu-nav a {
-        font-size: 1rem;    
-        color: #FFFFFF;
-        text-decoration: none;
-        font-weight: 400;
-        transition: color 0.3s ease;
-    }
-}
+
     
 /* SEÇÃO PAINEL */
 .hero {
