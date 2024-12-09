@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitico Pet | Cuidado e Carinho</title>
+
+    <link rel="shortcut icon" href="IMG/Pitico Pet.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="barranav" id="barranav">
+            <a class="logo" href="index.html">Pitico Pet</a>
+            <div class="container-nav">
+                <nav class="menu-nav">
+                    <ul>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Cuidado e Carinho? Só Podia Ser Piticos!</h2>
+            <p>Encontre os melhores produtos e serviços para o seu amigo de quatro patas.</p>
+        </div>        
+    </section>
+    
+    <div class="container my-5">
+        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">   
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 300px;">
+                        <img src="IMG/Banner 1.png" style="border-radius: 25px;">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 300px;">
+                        <img src="IMG/Banner 2.png" style="border-radius: 25px;">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center align-items-center" style="height: 300px;">
+                        <img src="IMG/Banner 3.png" style="border-radius: 25px;">
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+
+            <p>A <strong>Pitico Pet</strong> é, atualmente, uma das mais prestigiadas redes de pet shops especializadas no Brasil...</p>
+
+            <button class="botão" onclick="toggleSobreDetalhes()">Leia Mais</button>
+            
+            <div id="sobre-detalhes" style="display: none;">
+                <p>A <strong>Pitico Pet</strong> é, atualmente, uma das mais prestigiadas redes de pet shops especializadas no Brasil, oferecendo uma vasta gama de produtos e serviços voltados para o bem-estar de animais de estimação. Fundada no ano de 1990, a empresa vem se destacando como referência no mercado pet, graças à sua constante busca por inovação, qualidade e um atendimento de excelência.</p>
+
+                <p>Com o passar dos anos, a Pitico Pet expandiu significativamente seu alcance, saindo dos limites do mercado nacional e se consolidando como uma marca internacional. Hoje, a empresa tem operações em diversos países da América Latina, onde seus produtos são reconhecidos pela qualidade superior e compromisso com a saúde e bem-estar dos pets.</p>
+
+                <p>Localizada em <a href="https://maps.app.goo.gl/pyWLhvAabEpSeJSHA">São Paulo-SP</a>, a sede da Pitico Pet coordena suas operações logísticas e de distribuição para todo o Brasil. O centro de distribuição da empresa é um modelo de eficiência, com infraestrutura de ponta que garante que os produtos cheguem rapidamente e em perfeito estado às casas dos seus clientes.</p>
+
+                <figure>
+                    <img id="centro-distribuicao" src="IMG/centro-distribuicao.png" alt="Centro de Distribuição da Pitico Pet">
+                    <figcaption>Centro de distribuição da Pitico Pet</figcaption>
+                </figure>
+
+                <p>A Pitico Pet é mais que um simples pet shop; é uma parceira na vida de milhões de tutores que buscam garantir o melhor para seus animais. Cada produto, desde rações premium até brinquedos e acessórios, é selecionado com base em rigorosos critérios de qualidade e segurança, assegurando que tanto os pets quanto seus tutores fiquem plenamente satisfeitos. 
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="lista-servicos">
+                <div class="item-servico">
+                    <h3>Banho e Tosa</h3>
+                    <p>Deixe seu pet sempre limpo e estiloso.</p>
+                </div>
+                <div class="item-servico">
+                    <h3>Consultoria Nutricional</h3>
+                    <p>Encontre a dieta ideal para o seu pet.</p>
+                </div>
+                <div class="item-servico">
+                    <h3>Treinamento Básico</h3>
+                    <p>Aprimore o comportamento do seu pet.</p>
+                </div>
+                <div class="item-servico">
+                    <h3>Serviço de Veterinário</h3>
+                    <p>Consultas veterinárias para a saúde do seu pet.</p>
+                </div>
+                <div class="item-servico">
+                    <h3>Clínica Odontológica</h3>
+                    <p>Cuide da saúde dental do seu amigo de quatro patas.</p>
+                </div>
+                <div class="item-servico">
+                    <h3>Hospedagem</h3>
+                    <p>Deixe seu pet conosco durante suas férias ou viagens.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="produtos">
+        <div class="tituloplus">Produtos Que Seu Pet Vai amar!</div>
+
+        <div class="carrossel-container">
+            <div class="titulo">DESTAQUES PARA GATO</div>
+        
+            <div class="navegacao">
+                <button onclick="scrollLeft()">&#8592;</button>
+                <button onclick="scrollRight()">&#8594;</button>
+            </div>
+        
+            <div class="carrossel" id="carrossel">
+                <div class="produto">
+                    <img src="IMG/Areia Sanitária Alfapet Kets para Gatos.jpg" alt="Produto Para Gato 1">
+                    <h4>Areia Sanitária Alfapet Kets para Gatos</h4>
+                    <div class="marca">Kets</div>
+                    <div class="avaliacao">&#9733; 3.65</div>
+                    <div class="preco">R$ 9,99</div>
+                    <div class="preco-desconto">R$ 8,99</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.petz.com.br/produto/areia-higienica-kets-para-gatos-77384?utm_source=google&utm_medium=flp&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkXUmc7CPA7_oDqZcTQ3OzjLblKWkkheCGBvQQpmHAxRCQStkgZ1LhwaAmGfEALw_wcB" target="_blank" ><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Ração Nutrilus Pro+ Carne para Gatos.jpg" alt="Produto Para Gato 2">
+                    <h4>Ração Nutrilus Pro+ Carne para Gatos</h4>
+                    <div class="marca">Nutrilus</div>
+                    <div class="avaliacao">&#9733; 4.8</div>
+                    <div class="preco">R$ 166,90</div>
+                    <div class="preco-desconto">R$ 133,52</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.petlove.com.br/racao-seca-nutrilus-pro-carne-para-gatos-adultos/p?sku=2661128&campanha=pmax-me-geral&gad_source=4&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkVLFdq_pG0W0L4WxuDoLkKLQkOuCv6kgQ2wERGRxvWKr76_rInjZ_AaAs4IEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Tapete Limpa Pata para Gatos.png" alt="Produto Para Gato 2">
+                    <h4>Tapete Limpa Pata para Gatos</h4>
+                    <div class="marca">Piticos</div>
+                    <div class="avaliacao">&#9733; 4.8</div>
+                    <div class="preco">R$ 63,39</div>
+                    <div class="preco-desconto">R$ 22,21</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.temu.com/br-en/extra-large--cat-litter-mat-splash-leak-proof-eva-material-sustainable-recyclable-waste--indoor-spaces-clean-g-601099685468275.html?top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2F6c812d15-3298-4939-963c-2552b83d52cc.jpg&spec_gallery_id=2476357604&share_token=Zv0gYUgXlKMITX5_bkPETw9qebTibYRDsHHKn-1EJyUmaYRYOi_1zkjrQRgxZmCIT3od_XvSbh0LA3jlDqOnwyoYNxpkixmZZHX6UrtsX9gk00ekOcKL17-kbiHKtx0md5jeFLnGlEyKRWWdHMOaFA9pTf30G4O4saphUiNrTLJ&_x_vst_scene=adg&_x_ads_sub_channel=shopping&_x_ns_prz_type=-1&_x_ns_sku_id=17592853213747&_x_ns_gid=601099685468275&_x_ads_channel=google&_x_gmc_account=5362938519&_x_login_type=Google&_x_ads_account=6982032180&_x_ads_set=21882379434&_x_ads_id=170962623340&_x_ads_creative_id=720422095104&_x_ns_source=g&_x_ns_gclid=Cj0KCQiApNW6BhD5ARIsACmEbkX49YRAzcRy3c7ILuNnL08nkOTzcmBK1nfU5k2JloqBGnsmIhomZJQaAiPEEALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592853213747&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=Cj4KCAiAgdC6BhBrEi4Afa7mO57G0ylTbN3Y673xfDVaFVz3RyO5JH66xl7wu5bMIDicuw6YPRWImtVWGgJVHQ&_x_ns_gbraid=0AAAAAo4mICEfGbJZOGAYq_Dw_w0NrWNZv&_x_ns_targetid=pla-2358165245244&refer_page_name=kuiper&refer_page_id=14004_1733691609882_qfwo9cvl09&refer_page_sn=14004&_x_sessn_id=r1i345kf8k" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Arranhador Interativo Dobrável para Gatos.jpg" alt="Produto Para Gato 4">
+                    <h4>Arranhador Interativo Dobrável para Gatos</h4>
+                    <div class="marca">Piticos</div>
+                    <div class="avaliacao">&#9733; 4.6</div>
+                    <div class="preco">R$ 55,92</div>
+                    <div class="preco-desconto">R$ 42,08</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.temu.com/br-en/interactive-foldable-cat-scratcher---corrugated-cardboard-claw-grinding-toy-for-cats-g-601099581356947.html?top_gallery_url=https%3A%2F%2Fimg.kwcdn.com%2Fproduct%2Ffancy%2Fe91c385a-6c79-4d86-afe4-06b5abc2bb0e.jpg&spec_gallery_id=2158436371&share_token=Zv0gYUgXlKMITX5_bkPETw9qebTibYRDsHHKn-1EJyULUue-46hc2p0sQ71RzWmKlF-lQE6SIFSyDnajKTVaEk4GEXwYdCN2tsOCrQEpiSRC3Ro_J98LMuW-8YHrmmOLV-rKyzU6PSHvahqwXPKpw-tjvy68J4o98Uu_EFkfKQo&_x_vst_scene=adg&_x_ads_sub_channel=shopping&_x_ns_prz_type=-1&_x_ns_sku_id=17592468156996&_x_ns_gid=601099581356947&_x_ads_channel=google&_x_gmc_account=5362938519&_x_login_type=Google&_x_ads_account=6982032180&_x_ads_set=21877386643&_x_ads_id=175163343292&_x_ads_creative_id=719849134315&_x_ns_source=g&_x_ns_gclid=Cj0KCQiApNW6BhD5ARIsACmEbkXv6N8dkknHXTmArsI5AwGn2KN_i3i_AGanTvW9oTIKveM_XlCjc3IaArr4EALw_wcB&_x_ns_placement=&_x_ns_match_type=&_x_ns_ad_position=&_x_ns_product_id=17592468156996&_x_ns_target=&_x_ns_devicemodel=&_x_ns_wbraid=Cj4KCAiAgdC6BhBrEi4Afa7mO6UlEtrRJqGxHbwh8C4xbXyWeorDng3WIoAfssS0zTyTEo5UWDg0A7hvGgIgqw&_x_ns_gbraid=0AAAAAo4mICHAxYUHZCMn6riGuKQRHh83l&_x_ns_targetid=pla-2325039099961&refer_page_name=kuiper&refer_page_id=14004_1733694330961_43qi9oyrs7&refer_page_sn=14004&_x_sessn_id=y6uapgn7xn" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Ração Nestlé Purina Friskies Sachê Carne ao Molho.jpg" alt="Produto Para Gato 5">
+                    <h4>Ração Nestlé Purina Friskies Sachê</h4>
+                    <div class="marca">Purina Friskies</div>
+                    <div class="avaliacao">&#9733; 4.82</div>
+                    <div class="preco">R$ 3,69</div>
+                    <div class="preco-desconto">R$ 2,49</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://sondadelivery.com.br/delivery/produto/nestle%C2%AE-purina%C2%AE-friskies%C2%AE-racao-umida-para-gatos-adultos-carne-ao-molho-85g/1000019434?gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkVAOzxkY45Nd-p5wxyKUaZwnKmwNzOa62rQDcy1-P9pZfrYbjlztTgaAkvVEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+                
+                <div class="produto">
+                    <img src="IMG/Shampoo Gatos 2 em 1 Pet Clean 500 ml.png" alt="Produto Para Gato 6">
+                    <h4>Shampoo Gatos 2 em 1 Pet Clean 500 ml</h4>
+                    <div class="marca">Pet Clean</div>
+                    <div class="avaliacao">&#9733; 4.6</div>
+                    <div class="preco">R$ 16,90</div>
+                    <div class="preco-desconto">R$ 15,21</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.cobasi.com.br/shampoo-gatos-2-em-1-pet-clean-3600717/p?idsku=600717&gad_source=4&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkXGQm72nNJe0488yTk04XACEccIAMK8qgIX5ilvValSXnBerG5vKjAaApBCEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+                    
+                <div class="produto">
+                    <img src="IMG/Playground Para Gatos.jpg" alt="Produto Para Gato 7">
+                    <h4>Playground Para Gatos</h4>
+                    <div class="marca">Piticos</div>
+                    <div class="avaliacao">&#9733; 3.9</div>
+                    <div class="preco">R$ 229,90</div>
+                    <div class="preco-desconto">R$ 78,16</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.mercadolivre.com.br/playground-para-gato-10-pcs-ponte-prateleira-degrau-caixa-cor-cru-tamanho-10-pecas/p/MLB27858039?pdp_filters=item_id%3AMLB3865208821&from=gshop&matt_tool=16172974&matt_word=&matt_source=google&matt_campaign_id=14302217691&matt_ad_group_id=158628832018&matt_match_type=&matt_network=g&matt_device=c&matt_creative=687241439441&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=735128188&matt_product_id=MLB27858039-product&matt_product_partition_id=1960285996254&matt_target_id=pla-1960285996254&cq_src=google_ads&cq_cmp=14302217691&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkX1pXcJSBNGlAWYQHtEiCEoQwJf97ASChNu8HcCKhhHVEbsMUJhfXUaArdeEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+            </div>      
+        </div>
+
+        <div class="carrossel-container">
+            <div class="titulo">DESTAQUES PARA CACHORRO</div>
+        
+            <div class="navegacao2">
+                <button onclick="scrollLeft2()">&#8592;</button>
+                <button onclick="scrollRight2()">&#8594;</button>
+            </div>
+        
+            <div class="carrossel" id="carrossel2">
+                <div class="produto">
+                    <img src="IMG/Ração Pedigree Nutrição Essencial Carne para Cães Adultos.jpg" alt="Produto Para Cachorro 1">
+                    <h4>Ração Pedigree Nutrição Essencial</h4>
+                    <div class="marca">Pedigree</div>
+                    <div class="avaliacao">&#9733; 4.43</div>
+                    <div class="preco">R$ 153,84</div>
+                    <div class="preco-desconto">R$ 134,99</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.petz.com.br/produto/racao-pedigree-nutri-essencial-para-caes-adultos-15kg-164924?utm_source=google&utm_medium=flp&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkXrS-zqft7xmIrIGemSfFTOcK_1UabuzoBQnhHTob1rjNxqKodRYfoaAkBNEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Cama Dreamdog.jpg" alt="Produto Para Cachorro 2">
+                    <h4>Cama Dreamdog | Conforto Premium</h4>
+                    <div class="marca">Dreamdog</div>
+                    <div class="avaliacao">&#9733; 5.0</div>
+                    <div class="preco">R$ 241,99</div>
+                    <div class="preco-desconto">R$ 204,99</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.bonopet.com.br/products/cama-dreamdog?variant=46567417118999&currency=BRL&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gclid=Cj0KCQjwmt24BhDPARIsAJFYKk1Q9SJFLzHlLgu9iNsL0Sd9uRWGIdWYwRyBsJ3YTuKaNzyLBymg90IaAuVDEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Tapete Higiênico Meau Slim para Cães.jpg" alt="Produto Para Cachorro 3">
+                    <h4>Tapete Higiênico Meau Slim para Cães</h4>
+                    <div class="marca">Meau</div>
+                    <div class="avaliacao">&#9733; 4.83</div>
+                    <div class="preco">R$ 85,90</div>
+                    <div class="preco-desconto">R$ 68,72</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.petlove.com.br/tapete-higienico-me-au-pet-slim-para-caes/p?sku=2492321&campanha=pmax-me-geral&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkVsdYYMVYfNc8G3qQENyCuvPWq4zoPmGjd25mbHZ5kZ_WegRtJw_2gaAjg4EALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Comedouro Antiformiga NF Pet Alumínio 500 ml.png" alt="Produto Para Cachorro 4">
+                    <h4>Comedouro Antiformiga NF Pet</h4>
+                    <div class="marca">NF Pet</div>
+                    <div class="avaliacao">&#9733; 4.4</div>
+                    <div class="preco">R$ 89,90</div>
+                    <div class="preco-desconto">R$ 80,91</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.cobasi.com.br/comedouro-antiformiga-nf-pet-3936227/p?idsku=936227&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkWagf6_JBwUlyygtrrtgwEOptJ6aivEzzyM_P3YkbnQ9at1OiiZqeAaAh_EEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Ração Úmida GranPlus Sachê Gourmet Frango.jpg" alt="Produto Para Cachorro 5">
+                    <h4>Ração GranPlus Sachê Gourmet Frango</h4>
+                    <div class="marca">GranPlus</div>
+                    <div class="avaliacao">&#9733; 4.82</div>
+                    <div class="preco">R$ 3,19</div>
+                    <div class="preco-desconto">R$ 2,88</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.petlove.com.br/racao-umida-gran-plus-sache-frango-para-caes-adultos/p?sku=2387413&campanha=pmax_highLTV&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkUEupjYYzfYZ2D6PCjnjzJnaekWAj5d8j6pf1XMj5s6ZeB3R8Db7vEaAgVYEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Brinquedo Macaco Marrom Para Cães.jpg" alt="Produto Para Cachorro 6">
+                    <h4>Brinquedo Macaco Marrom Para Cães</h4>
+                    <div class="marca">Chalesco</div>
+                    <div class="avaliacao">&#9733; 4.6</div>
+                    <div class="preco">R$ 45,00</div>
+                    <div class="preco-desconto">R$ 29,90</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.amazon.com.br/Chalesco-Macaco-para-C%C3%A3es/dp/B07WRS2V22/ref=asc_df_B07WRS2V22/?tag=googleshopp00-20&linkCode=df0&hvadid=709857462930&hvpos=&hvnetw=g&hvrand=18074596971973750264&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100177&hvtargid=pla-930664508564&psc=1&mcid=6b47f20bfdd7372c905281b2e63b5c92&gad_source=1" target="_blank"><button>Adicionar</button></a>
+                </div>
+        
+                <div class="produto">
+                    <img src="IMG/Shampoo Neutro Cães e Gatos Pet Clean 700 ml.png" alt="Produto Para Cachorro 7">
+                    <h4>Shampoo Neutro Cães e Gatos Pet Clean 700 ml</h4>
+                    <div class="marca">Pet Clean</div>
+                    <div class="avaliacao">&#9733; 4.5</div>
+                    <div class="preco">R$ 16,90</div>
+                    <div class="preco-desconto">R$ 15,21</div>
+                    <div class="recorrencia">com recorrência</div>
+                    <a href="https://www.cobasi.com.br/shampoo-neutro-700ml-pet-clean-3600652/p?idsku=600652&gad_source=1&gclid=Cj0KCQiApNW6BhD5ARIsACmEbkV_1WYzQmOkFwbg2MrYmAHSCIsv4-Rj11VfFKXucoxl4PSTt0pUMjQaAgCAEALw_wcB" target="_blank"><button>Adicionar</button></a>
+                </div>
+            </div>      
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Tem alguma dúvida ou quer marcar um horário? Entre em contato conosco!</p>
+            <form>
+                <input type="text" placeholder="Seu Nome" required>
+                <input type="email" placeholder="Seu Email" required>
+                <textarea placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="qr-section">
+            <button id="show-qr" class="botão">Exibir QR Code</button>
+            <div id="qr-container" class="qr-container">
+                <img id="qr-code" src="" alt="QR Code" />
+            </div>
+        </div>
+        
+        <div class="container">
+            <p>&copy; 2024 Pitico Pet - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+    <!--SCRIPT-->
+
+    <!--Linkar Arquivo js-->
+    <script src="JS/script.js"></script>
+    
+    <!--Linkar Bootstrap-->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Função da Barra de Tarefas-->
+    <script>
+        let lastScrollTop = 0;
+        const barranav = document.getElementById('barranav');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > lastScrollTop) {
+                // Rolando para baixo
+                barranav.classList.add('hidden');
+            } else {
+                // Rolando para cima
+                barranav.classList.remove('hidden');
+            }
+            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Evita valores negativos
+        });
+    </script>
+</body>
+</html>
