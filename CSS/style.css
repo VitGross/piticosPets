@@ -83,35 +83,6 @@ body {
 }
 
 /* Responsividade Barra de Navegação */
-@media (max-width: 768px) {
-    .menu-nav ul {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .menu-nav a {
-        font-size: 1rem;
-    }
-
-    lado{
-        display: none;
-        width: 100%;
-        max-width: 120px;
-        height: calc(100vh - 75px);
-        background: linear-gradient(var(--cor4), var(--cor2));
-        position: sticky;
-        top: 75px;
-        z-index: 9;
-        box-shadow: 1px 1px 10px 1px black;
-    }
-    
-    .menu-nav{
-        display: flex;
-        flex-direction: column;
-    }
-    
-}
 
 
 /* SEÇÃO PAINEL */
