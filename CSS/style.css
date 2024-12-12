@@ -84,35 +84,18 @@ body {
 
 /* Responsividade Barra de Navegação */
 @media (max-width: 768px) {
-    .menu-nav {
-    display: flex;
-    justify-content: center; 
-    align-items: center;   
-    flex-direction: column; 
-    gap: 15px;    
-    height: 100%;          
+    .menu-nav ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .menu-nav a {
+        font-size: 1rem;
+    }
 }
 
-.menu-nav ul {
-    display: flex;
-    gap: 10px; 
-    padding: 0;
-    margin: 0;
-    list-style: none; 
-}
 
-.menu-nav a {
-    font-size: 1.1rem;    
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: 400;
-    transition: color 0.3s ease;
-}
-
-.menu-nav a:hover {
-    color: #FFEB3B;
-}
-    
 /* SEÇÃO PAINEL */
 .hero {
     background: linear-gradient(to right, #A3B18A, #588157);
@@ -129,13 +112,6 @@ body {
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-}
-
-lado{
-    display: none;
-    width: 50%;
-    max-width: 90px;
-    
 }
 
 @media (max-width: 768px) {
