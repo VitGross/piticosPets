@@ -88,8 +88,7 @@ body {
         height: auto;
     }
     
-    .menu-nav ul {
-        flex-direction: column;
+    .menu-nav ul {   
         gap: 10px;
         align-items: center;
     }
